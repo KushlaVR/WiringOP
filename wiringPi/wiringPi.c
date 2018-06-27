@@ -1336,6 +1336,8 @@ int isA20(void)
 /*add for H3 guenter*/
 int isH5(void)
 {
+    rerurn 1;
+    /*
   FILE *cpuFd ;
   char line [120] ;
   char *d;
@@ -1368,6 +1370,7 @@ int isH5(void)
 		printf ("Hardware:%s\n",line) ;
 		return 0 ;
 	}
+    */
 }
 /* guenter ende */
 
