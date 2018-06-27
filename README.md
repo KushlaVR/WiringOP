@@ -41,3 +41,17 @@ orangepi@orangepi:~$ gpio readall
  +-----+-----+----------+------+---+--OrangePIPC--+------+----------+-----+-----+
 ```    
 Thanks!
+## Full instructions
+    git config --global user.name "KushlaVR"
+    git config --global user.email "kushlavr@gmail.com"
+    git clone https://github.com/KushlaVR/WiringOP.git /OrangePi_Prime/ WiringOP/
+    cd WiringOP
+    git remote add upstream  https://github.com/KushlaVR/WiringOP.git
+    git remote -v
+    
+    #make some changes...
+    
+    git add .
+    git config --global push.default simple
+    git commit -m "modify isH5 function"
+    git push origin
